@@ -5,6 +5,7 @@ The Tripitaka Listing App is an android application that allows users to view al
 #### 1. Google sign in integration
 For the users to be able to use the app, they are required to sign in with google. This ensures ultimate security
 
+![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(75).png)
 ![]()
 
 #### 2. List of listings
