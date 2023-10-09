@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "756677525327",
+    "project_id": "listingsapp---tripitaca",
+    "storage_bucket": "listingsapp---tripitaca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756677525327:android:59c75928df193407320f3a",
+        "android_client_info": {
+          "package_name": "com.example.listingsapp_tripitaca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM9Y7LJpVCykJ1-BbmpmotvgD7oNUyu38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ListingsAppTripitaca" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.ListingsAppTripitaca" parent="Base.Theme.ListingsAppTripitaca" />
+
+    <style name="MySearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:iconifiedByDefault">false</item>
+        <item name="android:searchIcon">@null</item> <!-- Remove the search icon -->
+        <item name="android:submitBackground">@null</item> <!-- Remove the submit button background -->
+        <item name="android:queryBackground">@null</item> <!-- Remove the query background -->
+    </style>
+</resources>

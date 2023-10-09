@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ListingsApp - Tripitaca</string>
+    <string name="listings">Properties</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_listings_details">ListingsDetails</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="property_details">Property details</string>
+    <string name="type">Type:</string>
+    <string name="unique_type">Unique type:</string>
+    <string name="space">Space:</string>
+    <string name="rating">Rating:</string>
+    <string name="status">Status:</string>
+    <string name="bookings">Bookings:</string>
+    <string name="amenities">Amenities</string>
+    <string name="rules">Rules</string>
+    <string name="check_out_time">Check out time:</string>
+    <string name="check_in_time">Check in time:</string>
+    <string name="view_location_on_maps">View location on maps</string>
+    <string name="booked_dates">Booked dates</string>
+    <string name="property">Property:</string>
+    <string name="client_id">756677525327-kiftnsg9k3mgn6547inhf0uj2nes5h1n.apps.googleusercontent.com</string>
+    <string name="sign_in_with_google">Hello user. Sign in to use this app</string>
+    <string name="welcome_to_tripitaca_properties">Welcome to Tripitaca properties</string>
+
+</resources>
