@@ -27,6 +27,7 @@ The process of getting a valid payment method went beyond the project deadline. 
 
 #### 5. Calendar Display
 The app displays a calendar component that visually highlights and disables booked dates for each listing
+
 ![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(81).png)
 
 #### 6. Location search
@@ -41,5 +42,5 @@ Users are able to search for a particular property based on ots location
 * [Gson](https://github.com/square/retrofit/tree/master/retrofit-converters/gson) - The app ues a combination of local json parsing through the assets folder and [MVVM](https://developer.android.com/topic/architecture) to fetch data from the local json file
 * [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) - The app uses the backend processing of tasks especially when signing in the user. This is achieved through coroutines
 
-#### This is a subject to improvement
+#### This app is a subject to improvement
 
