@@ -394,7 +394,7 @@
             android:id="@+id/calendarView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:mcv_showOtherDates="all"
+            app:mcv_selectionMode="multiple"
             app:mcv_selectionColor="@color/colorPrimary"
             android:layout_marginTop="15dp"
             app:layout_constraintStart_toStartOf="parent"

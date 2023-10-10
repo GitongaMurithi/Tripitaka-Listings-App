@@ -1,9 +1,7 @@
 package com.example.listingsapp_tripitaca.data.repository
 
 import android.content.Context
-import com.example.listingsapp_tripitaca.data.GetListingsData
 import com.example.listingsapp_tripitaca.data.dto.ListingsDto
-import com.example.listingsapp_tripitaca.data.dto1.ListingDetailsDto
 import com.example.listingsapp_tripitaca.domain.repository.ListingsRepository
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
