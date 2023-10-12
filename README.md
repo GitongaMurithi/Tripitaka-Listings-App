@@ -2,7 +2,7 @@
 The Tripitaka Listing App is an android application that allows users to view all the listed properties. Users can therefore book the property they are interested in among other activities.
 
 ## To use the app
-Users must be connected to the internet to be abel to sign in and view property images.
+Users must be connected to the internet to be abe to sign in and view property images.
 
 ### Features
 #### 1. Google sign in integration
