@@ -1,6 +1,9 @@
 ## Tripitaka-Listings-App
 The Tripitaka Listing App is an android application that allows users to view all the listed properties. Users can therefore book the property they are interested in among other activities.
 
+## To use the app
+Users must be connected to the internet to be abel to sign in and view property images.
+
 ### Features
 #### 1. Google sign in integration
 For the users to be able to use the app, they are required to sign in with google. This ensures ultimate security
@@ -33,8 +36,8 @@ The app displays a calendar component that visually highlights and disables book
 #### 6. Location search
 Users are able to search for a particular property based on ots location
 
-![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(78).png)
-![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(79).png)
+![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(83).png)
+![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(84).png)
 
 ### How is the app built?
 * [Kotlin](https://kotlinlang.org/) - The app is built using Kotlin programming language for the backend
