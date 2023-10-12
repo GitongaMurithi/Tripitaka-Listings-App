@@ -2,7 +2,6 @@ package com.example.listingsapp_tripitaca
 
 import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
@@ -51,28 +50,24 @@ class ListingsDetails : AppCompatActivity(), OnMapReadyCallback {
         property = propertyId?.let { viewModel.getListingItemById(it) }!!
         getPropertyDetails(property)
 
-        val dateStrings: List<String>? = propertyId?.let {
+        val dateStrings: List<String> = propertyId.let {
             viewModel.getListingItemById(it)?.bookedDates
                 ?: emptyList()
         }
-        val calendarView: MaterialCalendarView = binding.calendarView
+        val calendarView: MaterialCalendarView = binding.calendar
 
         val dateObjects = mutableListOf<Date>()
         val simpleDateFormat = SimpleDateFormat("MM/dd/yyyy", Locale.getDefault())
 
-        if (dateStrings != null) {
-            for (dateString in dateStrings) {
-                try {
-                    val date = simpleDateFormat.parse(dateString)
-                    date?.let {
-                        dateObjects.add(it)
-                    }
-                } catch (exception: ParseException) {
-                    exception.printStackTrace()
+        for (dateString in dateStrings) {
+            try {
+                val date = simpleDateFormat.parse(dateString)
+                date?.let {
+                    dateObjects.add(it)
                 }
+            } catch (exception: ParseException) {
+                exception.printStackTrace()
             }
-        } else {
-            Log.d("Confirm", "DataStrings is null")
         }
 
         val selectedLocalDates = dateObjects.map { date ->

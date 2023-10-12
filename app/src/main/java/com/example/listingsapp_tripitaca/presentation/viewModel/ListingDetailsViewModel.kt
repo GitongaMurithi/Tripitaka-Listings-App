@@ -10,8 +10,12 @@ import javax.inject.Inject
 class ListingDetailsViewModel @Inject constructor(
     private val repository: ListingsRepository
 ) : ViewModel(){
+
+    fun listings() : List<ListingsDto> {
+        return repository.getAllItems()
+    }
     fun getListingItemById(itemId : String) : ListingsDto? {
-        val properties = repository.getListItemById(itemId)
-        return properties?.find { it.id == itemId }
+        val properties = listings()
+        return properties.find { it.id == itemId }
     }
 }

@@ -14,16 +14,18 @@ class ListingsRepositoryImpl @Inject constructor(
 //        return getListingsData.getListings()
 //    }
 
-    override fun getListItemById(itemId: String): List<ListingsDto>? {
-        val jsonContents = readJsonContents(context, "listings.json")
+
+    override fun getAllItems(): List<ListingsDto> {
+        val jsonContents = readJsonContents(context)
         val gson = Gson()
         val listType = object : TypeToken<List<ListingsDto>>() {}.type
         return gson.fromJson(jsonContents, listType)
     }
 
-    private fun readJsonContents(context: Context, fileName: String): String? {
+
+    private fun readJsonContents(context: Context): String? {
         return try {
-            val inputStream = context.assets.open(fileName)
+            val inputStream = context.assets.open("listings.json")
             val size = inputStream.available()
             val buffer = ByteArray(size)
             inputStream.read(buffer)

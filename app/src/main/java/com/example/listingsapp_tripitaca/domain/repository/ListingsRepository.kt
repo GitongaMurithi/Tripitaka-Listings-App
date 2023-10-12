@@ -4,5 +4,6 @@ import com.example.listingsapp_tripitaca.data.dto.ListingsDto
 
 interface ListingsRepository {
 //    fun getListings() : List<ListingsDto>
-    fun getListItemById(itemId : String) : List<ListingsDto>?
+
+    fun getAllItems() : List<ListingsDto>
 }
