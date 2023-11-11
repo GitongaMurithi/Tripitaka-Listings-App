@@ -11,22 +11,23 @@ For the users to be able to use the app, they are required to sign in with googl
 ![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(75).png)
 ![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(76).png)
 
-#### 2. List of listings
+#### 2. List of properties
 All listings are displayed to the user as a list. Users can scroll down the list of properties looking for the one interests them. 
 Each property has some information such as price,guest and number of bedrooms available displayed
 
-![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(77).png)
+![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(96).png)
+![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(99).png)
 
 #### 3. Listing Details
 Upon clicking on a particular listing/property the user is able to view more details about that property. The information displayed include the booked dates,ratings and so on
 
 ![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(80).png)
+![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(87).png)
+![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(100).png)
 
 #### 4. Map Integration
-The app should allow users to view property location in maps. Unfortunately,the app currently is not able to display the maps due to lack of Google play api key. Google requires that I should provide a valid payment method to access the key.
-The process of getting a valid payment method went beyond the project deadline. Sorry for that, looking forward to implementing the feature in future
-
-![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(82).png)
+Users are also able to view locations on google maps within the app
+![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(98).png)
 
 #### 5. Calendar Display
 The app displays a calendar component that visually highlights and disables booked dates for each listing
