@@ -319,7 +319,6 @@
             android:textColor="@color/onBackground"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view3" />
 
@@ -332,7 +331,6 @@
             android:text="@string/check_out_time"
             android:textColor="@color/onBackground"
             android:textSize="18sp"
-            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/rules" />
 
@@ -345,7 +343,6 @@
             android:text="@string/check_in_time"
             android:textColor="@color/onBackground"
             android:textSize="18sp"
-            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/checkOut" />
 
@@ -408,6 +405,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:padding="5dp"
+            app:mcv_dateTextAppearance="@color/onBackground"
+            app:mcv_weekDayTextAppearance="@color/onBackground"
+            app:mcv_headerTextAppearance="@color/onBackground"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/bookedDates"

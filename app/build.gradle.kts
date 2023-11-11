@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace = "com.example.listingsapp_tripitaca"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.listingsapp_tripitaca"
         minSdk = 28
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -78,5 +78,6 @@ dependencies {
     }
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+
 
 }
