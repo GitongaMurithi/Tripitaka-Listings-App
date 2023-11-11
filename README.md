@@ -27,6 +27,7 @@ Upon clicking on a particular listing/property the user is able to view more det
 
 #### 4. Map Integration
 Users are also able to view locations on google maps within the app
+
 ![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(98).png)
 
 #### 5. Calendar Display
@@ -39,6 +40,10 @@ Users are able to search for a particular property based on ots location
 
 ![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(83).png)
 ![](https://github.com/GitongaMurithi/Tripitaka-Listings-App/blob/main/app/src/main/java/com/example/listingsapp_tripitaca/screenshots/Screenshot%20(84).png)
+
+#### Dark / Light themes
+The app supports both dark and light themes
+
 
 ### How is the app built?
 * [Kotlin](https://kotlinlang.org/) - The app is built using Kotlin programming language for the backend
